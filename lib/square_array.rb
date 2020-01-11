@@ -3,10 +3,8 @@ def square_array(array)
   new_array = []
   
   while array[counter] do
-    new array = [p array[counter] * array[counter]]
+    new_array << array[counter] * array[counter]
     counter += 1 
-    
-    
   end
 end
 
