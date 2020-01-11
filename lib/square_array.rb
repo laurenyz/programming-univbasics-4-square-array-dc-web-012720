@@ -4,6 +4,8 @@ def square_array(array)
   while array[counter] do
     new array = [p array[counter] * array[counter]]
     counter += 1 
+    
+    
   end
 end
 
